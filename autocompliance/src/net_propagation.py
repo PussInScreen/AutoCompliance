@@ -22,9 +22,9 @@ import pipes
 # Importing requests for web based operations.
 import requests
 # Importing strings for use of the external strings resources.
-import autocompliance.src.strings as strings
+import strings
 # Importing strings_functions for string building functions.
-import autocompliance.src.strings_functions as strings_functions
+import strings_functions
 
 
 class NetPropagation:

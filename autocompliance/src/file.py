@@ -3,17 +3,17 @@
 # Author: @andrewk10
 
 # Importing demo_functions for the demo specific functionality.
-import autocompliance.src.demo_functions as demo_functions
+import demo_functions
 # Importing logging to safely log sensitive, error or debug info.
 import logging
 # For net_propagation related functionality.
-import autocompliance.src.net_propagation as net_propagation
+import net_propagation
 # Import os for path checking.
 import os
 # Importing strings for use of the external strings resources.
-import autocompliance.src.strings as strings
+import strings
 # Importing strings_functions for string building functions.
-import autocompliance.src.strings_functions as strings_functions
+import strings_functions
 # Importing subprocess for running commands.
 import subprocess
 

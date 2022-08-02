@@ -5,13 +5,13 @@
 # Importing argparse for command-line option parsing
 import argparse
 # Importing file for file based functionality
-import autocompliance.src.file as file
+import file
 # Importing logging to safely log sensitive, error or debug info.
 import logging
 # Importing strings for use of the external strings resources.
-import autocompliance.src.strings as strings
+import strings
 # Importing strings_functions for string building functions.
-import autocompliance.src.strings_functions as strings_functions
+import strings_functions
 
 
 class DemoFunctions:
