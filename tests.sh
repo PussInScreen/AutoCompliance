@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Pytest local run with coverage and a report exported to HTML
 # See; https://coverage.readthedocs.io/en/6.3.2/
+cd autocompliance/src
 coverage run -m pytest --durations=0 -vv -x --log-level=debug
 coverage report
 coverage html
