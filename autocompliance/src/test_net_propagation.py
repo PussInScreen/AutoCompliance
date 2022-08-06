@@ -3,15 +3,15 @@
 # Author: @andrewk10
 
 # Importing demo_functions for demo specific functionality.
-import autocompliance.src.demo_functions as demo_functions
+import demo_functions
 # Importing file for file based functionality
-import autocompliance.src.file as file
+import file
 # Importing logging to log the ping command fails
 import logging
 # Importing net_propagation for testing
-import autocompliance.src.net_propagation as net_propagation
+import net_propagation
 # Importing strings for common string resources
-import autocompliance.src.strings as strings
+import strings
 # Importing subprocess to run the ping command where needed
 import subprocess
 
