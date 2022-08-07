@@ -26,10 +26,10 @@ class AutocomplianceWindow(Gtk.ApplicationWindow):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.set_title("AutoCompliance")
+        #self.set_title("AutoCompliance")
 
-        box = Gtk.VBox()
-        self.set_child(box)
+        #box = Gtk.VBox()
+        #self.set_child(box)
 
         resource_limiting_btn = Gtk.Button(label='Resource Limiting')
         resource_limiting_btn.connect('clicked', lambda x: self.close())
@@ -55,7 +55,7 @@ class AboutDialog(Gtk.AboutDialog):
     def __init__(self, parent):
         Gtk.AboutDialog.__init__(self)
         self.props.program_name = 'autocompliance'
-        self.props.version = "0.1.0"
+        self.props.version = "0.5.0"
         self.props.authors = ['Andrew']
         self.props.copyright = '2022 Andrew'
         self.props.logo_icon_name = 'org.example.App'

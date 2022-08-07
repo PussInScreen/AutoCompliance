@@ -66,10 +66,10 @@ CONSENSUS_MESSAGE_RECOVERY_MESSAGE = "Recovery Message"
 CONSENSUS_MESSAGE_RECOVERY_REQUEST = "Recovery Request"
 
 # The demo filename
-DEMO_SCRIPT_FILENAME = "demo.py"
+DEMO_SCRIPT_FILENAME = "../../demo.py"
 
 # The demo script path.
-DEMO_SCRIPT_PATH = "./demo.py"
+DEMO_SCRIPT_PATH = "../../demo.py"
 
 # This is the program description for the cli help menu.
 DESCRIPTION = "Automating the Implementation of a " \
