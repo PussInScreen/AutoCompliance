@@ -65,11 +65,14 @@ CONSENSUS_MESSAGE_RECOVERY_MESSAGE = "Recovery Message"
 # request.
 CONSENSUS_MESSAGE_RECOVERY_REQUEST = "Recovery Request"
 
+# The demo script
+DEMO_SCRIPT = "./demo.py"
+
 # The demo filename
-DEMO_SCRIPT_FILENAME = "../../demo.py"
+DEMO_SCRIPT_FILENAME = "demo.py"
 
 # The demo script path.
-DEMO_SCRIPT_PATH = "../../demo.py"
+DEMO_SCRIPT_PATH = "demo.py"
 
 # This is the program description for the cli help menu.
 DESCRIPTION = "Automating the Implementation of a " \
@@ -726,11 +729,11 @@ def help_output():
         LAN_OPT_SHORT + SPACE + ARROW + SPACE + \
         LOCAL_SCAN_STRING_HELP + NEWLINE_TAB + PROP_OPT_SHORT + SPACE + \
         ARROW + SPACE + HELP_STRING_PROPAGATION + NEWLINE + EXAMPLE_USAGE + \
-        NEWLINE_TAB + DEMO_SCRIPT_PATH + SPACE + \
+        NEWLINE_TAB + DEMO_SCRIPT + SPACE + \
         IP_FILE_OPT_SHORT + SPACE + IP_LIST + SPACE + \
         PORT_OPT_SHORT + SPACE + ALL_PORTS + SPACE + USERNAME_OPT_SHORT + \
         SPACE + ADMIN + SPACE + PW_FILE_OPT_SHORT + SPACE + PWDS_LIST + \
-        NEWLINE_NEWLINE_TAB + DEMO_SCRIPT_PATH + \
+        NEWLINE_NEWLINE_TAB + DEMO_SCRIPT + \
         IP_FILE_OPT_SHORT + SPACE + IP_LIST + SPACE + \
         PORT_OPT_SHORT + SPACE + SSH_PORT + SPACE + USERNAME_OPT_SHORT + \
         SPACE + ROOT + SPACE + PW_FILE_OPT_SHORT + SPACE + PWDS_LIST
