@@ -65,11 +65,14 @@ CONSENSUS_MESSAGE_RECOVERY_MESSAGE = "Recovery Message"
 # request.
 CONSENSUS_MESSAGE_RECOVERY_REQUEST = "Recovery Request"
 
+# The demo script
+DEMO_SCRIPT = "./demo.py"
+
 # The demo filename
 DEMO_SCRIPT_FILENAME = "demo.py"
 
 # The demo script path.
-DEMO_SCRIPT_PATH = "./demo.py"
+DEMO_SCRIPT_PATH = "demo.py"
 
 # This is the program description for the cli help menu.
 DESCRIPTION = "Automating the Implementation of a " \
@@ -104,9 +107,8 @@ FETCHING_INTERFACE_IPS = "Fetching IPs for interface"
 # Prompts the user that their fetching the local interface list.
 FETCHING_LOCAL_INTERFACE_LIST = "Fetching local interface list..."
 
-# Name of the test text file, prepended with autocompliance/src/ for Pytest to
-# work.
-FILE = "autocompliance/src/test_files/file.txt"
+# Name of the test text file.
+FILE = "test_files/file.txt"
 
 # Lets the user know a file doesn't exist.
 FILE_DOES_NOT_EXIST = "A specified file does not exist"
@@ -177,13 +179,11 @@ IP_FILE_OPT_LONG = "--target"
 # Letting the user know a specified IP file could not be found.
 IP_FILENAME_NOT_FOUND = "Could not find the specified IP file"
 
-# Name of the test IP list file, prepended with autocompliance/src/ for Pytest
-# to work.
-IP_LIST = "autocompliance/src/test_files/ip_list.txt"
+# Name of the test IP list file.
+IP_LIST = "test_files/ip_list.txt"
 
-# Name of the short test IP list file, prepended with autocompliance/src/ for
-# Pytest to work.
-IP_LIST_SHORT = "autocompliance/src/test_files/ip_list_short.txt"
+# Name of the short test IP list file.
+IP_LIST_SHORT = "test_files/ip_list_short.txt"
 
 # Let the user know that we're checking to see if the IP address is reachable.
 IS_IP_REACHABLE = "Checking if the following ip address is reachable:"
@@ -258,9 +258,9 @@ NETCAT_LISTENER_PORT_COMMAND = "nc -l -p"
 # Netcat writer with a 3-second timeout time, command.
 NETCAT_WRITER_COMMAND = "nc -w 3"
 
-# The name of the net propagation script, prepended with autocompliance/src/
+# The name of the net propagation script.
 # for tests to work.
-NET_PROPAGATION = "autocompliance/src/net_propagation.py"
+NET_PROPAGATION = "net_propagation.py"
 
 # Newline character, mostly used to mimic an enter key press.
 NEWLINE = "\n"
@@ -294,11 +294,11 @@ PW_FILE_OPT_LONG = "--file"
 # Help text for the password file option.
 PW_FILE_HELP = "Filename for a file containing a list of passwords"
 
-# List of dummy passwords, prepended with autocompliance/src/
-PWDS_LIST = "autocompliance/src/test_files/passwords_list.txt"
+# List of dummy passwords
+PWDS_LIST = "test_files/passwords_list.txt"
 
-# Shorter list of dummy passwords, prepended with autocompliance/src/
-PWDS_LIST_SHORT = "autocompliance/src/test_files/passwords_list_short.txt"
+# Shorter list of dummy passwords
+PWDS_LIST_SHORT = "test_files/passwords_list_short.txt"
 
 # Parameters string for help test.
 PARAMETERS = "Parameters:"
@@ -729,11 +729,11 @@ def help_output():
         LAN_OPT_SHORT + SPACE + ARROW + SPACE + \
         LOCAL_SCAN_STRING_HELP + NEWLINE_TAB + PROP_OPT_SHORT + SPACE + \
         ARROW + SPACE + HELP_STRING_PROPAGATION + NEWLINE + EXAMPLE_USAGE + \
-        NEWLINE_TAB + DEMO_SCRIPT_PATH + SPACE + \
+        NEWLINE_TAB + DEMO_SCRIPT + SPACE + \
         IP_FILE_OPT_SHORT + SPACE + IP_LIST + SPACE + \
         PORT_OPT_SHORT + SPACE + ALL_PORTS + SPACE + USERNAME_OPT_SHORT + \
         SPACE + ADMIN + SPACE + PW_FILE_OPT_SHORT + SPACE + PWDS_LIST + \
-        NEWLINE_NEWLINE_TAB + DEMO_SCRIPT_PATH + \
+        NEWLINE_NEWLINE_TAB + DEMO_SCRIPT + \
         IP_FILE_OPT_SHORT + SPACE + IP_LIST + SPACE + \
         PORT_OPT_SHORT + SPACE + SSH_PORT + SPACE + USERNAME_OPT_SHORT + \
         SPACE + ROOT + SPACE + PW_FILE_OPT_SHORT + SPACE + PWDS_LIST

@@ -49,12 +49,12 @@ class Blockchain:
         return last_block
 
     def set_speaker_timeout(self):
-        self.speaker_timeout = pow(2, self.chain.index(self.validator) + 1) * \
+        self.speaker_timeout = pow(2, len(self.chain) * self.validator + 1) * \
                                self.speaker_timeout
 
     def set_validator(self):
-        self.validator = (self.chain.__len__() -
-                          self.chain.index(self.validator)) % \
+        # TODO: Revise this. Seems incorrect.
+        self.validator = (len(self.chain) - len(self.chain) * self.validator) % \
                          self.number_of_validators
 
     def initialise_consensus_information(self):

@@ -3,7 +3,7 @@
 # Author: @andrewk10
 
 # Importing strings for use of the external strings resources.
-import autocompliance.src.strings as strings
+import strings
 
 
 def adding_address_to_interface(specific_address, interface):
@@ -104,14 +104,14 @@ def help_output():
         strings.LOCAL_SCAN_STRING_HELP + strings.NEWLINE_TAB + \
         strings.PROP_OPT_SHORT + strings.SPACE + strings.ARROW + \
         strings.SPACE + strings.HELP_STRING_PROPAGATION + strings.NEWLINE + \
-        strings.EXAMPLE_USAGE + strings.NEWLINE_TAB + strings.MAIN_SCRIPT + \
+        strings.EXAMPLE_USAGE + strings.NEWLINE_TAB + strings.DEMO_SCRIPT + \
         strings.SPACE + strings.IP_FILE_OPT_SHORT + \
         strings.SPACE + strings.IP_LIST + strings.SPACE + \
         strings.PORT_OPT_SHORT + strings.SPACE + strings.ALL_PORTS + \
         strings.SPACE + strings.USERNAME_OPT_SHORT + strings.SPACE + \
         strings.ADMIN + strings.SPACE + strings.PW_FILE_OPT_SHORT + \
         strings.SPACE + strings.PWDS_LIST + strings.NEWLINE_NEWLINE_TAB + \
-        strings.MAIN_SCRIPT + strings.IP_FILE_OPT_SHORT + \
+        strings.DEMO_SCRIPT + strings.IP_FILE_OPT_SHORT + \
         strings.SPACE + strings.IP_LIST + strings.SPACE + \
         strings.PORT_OPT_SHORT + strings.SPACE + strings.SSH_PORT + \
         strings.SPACE + strings.USERNAME_OPT_SHORT + strings.SPACE + \
